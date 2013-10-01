@@ -1,6 +1,6 @@
 #summary Instalación base del sistema.
 
-= Instalación =
+= Instalación del entorno de desarrollo =
 
 Por motivos de la asignatura todo el desarrollo se realezará con Microsoft Windows S.O.. 
 
@@ -8,9 +8,22 @@ Para poder realizar la práctica es necesario realizar los siguientes pasos.
 
 /!\ *No es necesario descargar el archivo de la práctica* /!\
 
- 1º .- Descargar una versión de eclipse: http://www.eclipse.org/downloads/
+ 1 .- Descargar una versión de eclipse: http://www.eclipse.org/downloads/
 
- 2º .- 
+ 2 .- *Si utilizais la versión de 64 bits.*
+    2.1 .- Seleccionamos el controlador ODBC adecuado, para lo cual seguimos estos pasos: http://sosrucer.wordpress.com/2010/03/09/windows-7-64-bits-y-controladores-odbc/
+
+    2.2 .- Instalamos un JDK de 32 bit (por ejemplo el jdk 7: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+    2.3 .- En el entorno en el que estemos programando, editamos las propiedades del proyecto y en las opciones de compilador, elegimos esta versión de jdk de 32 bit que hemos instalado.
+
+
+= Instalación de SVN (64 bits). =
+
+Seguir el siguiente tutorial desde el paso *Install Subversive on Eclipse*: http://www.codingpedia.org/ama/install-eclipse-kepler-64-bit-on-windows-7-64-bit/
+
+= Descarga del proyecto desde el repositorio. =
+
+ 1 .-
 
 = Details =
 
