@@ -14,16 +14,19 @@ Para poder realizar la práctica es necesario realizar los siguientes pasos.
     2.1 .- Seleccionamos el controlador ODBC adecuado, para lo cual seguimos estos pasos: http://sosrucer.wordpress.com/2010/03/09/windows-7-64-bits-y-controladores-odbc/
 
     2.2 .- Instalamos un JDK de 32 bit (por ejemplo el jdk 7: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
-    2.3 .- En el entorno en el que estemos programando, editamos las propiedades del proyecto y en las opciones de compilador, elegimos esta versión de jdk de 32 bit que hemos instalado.
 
 
 = Instalación de SVN (64 bits). =
 
-Seguir el siguiente tutorial desde el paso *Install Subversive on Eclipse*: http://www.codingpedia.org/ama/install-eclipse-kepler-64-bit-on-windows-7-64-bit/
+Seguir el siguiente tutorial desde el paso *_Install Subversive on Eclipse_*, hasta que termina la *parte de la instalación de SVN*, incluida: http://www.codingpedia.org/ama/install-eclipse-kepler-64-bit-on-windows-7-64-bit/
 
 = Descarga del proyecto desde el repositorio. =
 
  1 .-
+
+= Para finalizar =
+
+En el entorno en el que estemos programando, *editamos las propiedades del proyecto y en las opciones de compilador*, elegimos esta _versión de jdk de 32 bits_ que hemos instalado.
 
 = Details =
 
