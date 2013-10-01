@@ -22,15 +22,8 @@ Seguir el siguiente tutorial desde el paso *_Install Subversive on Eclipse_*, ha
 
 = Descarga del proyecto desde el repositorio. =
 
- 1 .-
+ 1 .- *Parte por desarrollar*
 
 = Para finalizar =
 
 En el entorno en el que estemos programando, *editamos las propiedades del proyecto y en las opciones de compilador*, elegimos esta _versión de jdk de 32 bits_ que hemos instalado.
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
