@@ -1,14 +1,16 @@
-#summary One-sentence summary of this page.
+#summary Instalación base del sistema.
 
-= Introduction =
+= Instalación =
 
 Por motivos de la asignatura todo el desarrollo se realezará con Microsoft Windows S.O.. 
 
 Para poder realizar la práctica es necesario realizar los siguientes pasos.
 
- 1º.- Descargar una versión de eclipse: http://www.eclipse.org/downloads/
+/!\ *No es necesario descargar el archivo de la práctica* /!\
 
- 2º.- 
+ 1º .- Descargar una versión de eclipse: http://www.eclipse.org/downloads/
+
+ 2º .- 
 
 = Details =
 
