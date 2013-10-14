@@ -47,5 +47,12 @@ public class Usuario {
 		 *AYUDA2: Del mismo modo que para consultar la información, el agente provee de un método "select",
 		 *para hacer una inserción el agente provee de un método "insert"
 		 */
+		String SQL_Consulta = "INSERT INTO Usuario VALUES('"+this.mLogin+"','"+this.mPassword+"');";
+		
+		Agente a = Agente.getAgente();
+		int res = a.insert(SQL_Consulta);
+		
+		
+		return res;
 	}
 }
