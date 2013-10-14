@@ -17,7 +17,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 import javax.swing.JTextPane;
-
+//ojete
 public class JFrameLogin extends JFrame {
 
 	private JPanel contentPane;
