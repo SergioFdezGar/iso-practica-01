@@ -85,6 +85,28 @@ public class JFrameNuevoUsuario extends JFrame {
 				//hacer el login			
 				//Se deber‡ reportar en el panel de estado el resultado de la inserci—n. Tanto su exito
 				//como cualquier excepci—n que pueda surgir.
+				
+				//--------->
+				
+				//Primero recogemos los datos
+				String nombre=textFieldLogin.getText();
+				String psswd= textFieldPassword.getText();
+				
+				//Comprobamos que el usuario no existe anteriormente
+					//Mirar si sólo se puede consultar por en nombre
+				try {
+					boolean existe=GestorUsuario.autenticar(nombre);
+					textPaneEstado.setText("Autenticado: "+ autenticado);
+					
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					textPane.setText(e.printStackTrace());
+				}
+				
+				//Realizamos la insercción
+				
+				//<---------
+				
 			}
 		});
 		btnAltaUsuario.setBounds(253, 76, 117, 29);

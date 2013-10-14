@@ -6,7 +6,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
-
 import javax.swing.JTextField;
 import javax.swing.JButton;
 
@@ -16,6 +15,7 @@ import dominio.GestorUsuario;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+
 import javax.swing.JTextPane;
 
 public class JFrameLogin extends JFrame {
@@ -84,6 +84,18 @@ public class JFrameLogin extends JFrame {
 				 * tiene una respuesta (sea afirmativa, negativa o una excepci—n) que deber‡ mostrarse en el
 				 * panel de estado.
 				 */
+				String nombre= textFieldLog.getText();
+				String psswd= textFieldPass.getText();
+				
+				try {
+					boolean autenticado=GestorUsuario.autenticar(nombre, psswd);
+					textPaneEstado.setText("Autenticado: "+ autenticado);
+					
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					textPaneEstado.setText(e.printStackTrace());
+				}
+				
 										
 			}
 		});
@@ -106,6 +118,7 @@ public class JFrameLogin extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				/*Limpiaremos el panel de salida para visualizar nuevas operaciones
 				 */
+				textPaneEstado.setText("");
 			}
 		});
 		buttonLimpiar.setBounds(264, 117, 117, 29);
